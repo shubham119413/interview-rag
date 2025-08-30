@@ -1,24 +1,37 @@
-# Python
+# ---- Python ----
 __pycache__/
-*.pyc
+*.py[cod]
 *.pyo
 *.pyd
+*.so
 *.log
 .pytest_cache/
 .ipynb_checkpoints/
 
-# Envs / secrets
+# ---- Virtual environment ----
+venv/
 .env
 *.env
 
-# Local dirs
+# ---- Local data ----
 uploads/
 processed_text/
 text/
 data/
+*.wav
+*.mp3
+*.mp4
+*.mov
+*.pdf
 
-# OS / IDE
+# ---- Documents ----
+*.docx
+*.doc
+*.pptx
+*.xlsx
+
+# ---- OS / IDE ----
 .DS_Store
 .vscode/
-!.vscode/launch.json   # keep your debug config if you want
+!.vscode/launch.json   # keep debugger config if you want
 .idea/
