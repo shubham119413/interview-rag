@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Envs / secrets
+.env
+*.env
+
+# Local dirs
+uploads/
+processed_text/
+text/
+data/
+
+# OS / IDE
+.DS_Store
+.vscode/
+!.vscode/launch.json   # keep your debug config if you want
+.idea/
