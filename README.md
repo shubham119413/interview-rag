@@ -2,12 +2,12 @@
 
 **Interview RAG** is a lightweight Retrieval-Augmented Generation (RAG) app built for product managers and researchers to analyze interviews and summarize insights from PDFs, audio, and video files — all locally and cost-efficiently. It uses:
 
-✅ FastAPI for backend API
-✅ Streamlit for front-end
-✅ Whisper for transcription
-✅ SentenceTransformers + FAISS for retrieval
-✅ Gemini 2.0 Flash for AI-powered answers
-✅ Progress tracked for better debuggability
+- ✅ FastAPI for backend API
+- ✅ Streamlit for front-end
+- ✅ Whisper for transcription
+- ✅ SentenceTransformers + FAISS for retrieval
+- ✅ Gemini 2.0 Flash for AI-powered answers
+- ✅ Progress tracked for better debuggability
 
 ---
 
@@ -37,16 +37,13 @@
 
 
 ### 🚀 Features
-Upload and process:
-- PDF documents
-- Audio files (.mp3, .wav)
-- Video files (.mp4, .mov)
-Transcribes audio/video using Whisper
-Extracts text from PDFs
-Generates embeddings using SentenceTransformers
-Creates short/long contextual chunks for efficient retreival
-Stores embeddings in FAISS
-Answers questions using Gemini 2.0 Flash
+- Upload and process:PDF documents, Audio files (.mp3, .wav), Video files (.mp4, .mov)
+- Transcribes audio/video using Whisper
+- Extracts text from PDFs
+- Generates embeddings using SentenceTransformers
+- Creates short/long contextual chunks for efficient retreival
+- Stores embeddings in FAISS
+- Answers questions using Gemini 2.0 Flash
 
 ---
 ## 🛠️ How to Run Locally
