@@ -1,5 +1,11 @@
 # 🧠 Interview RAG — AI-Powered Interview Insights
 
+Product managers, researchers, and hiring managers record dozens of interviews weekly — but extracting insights, themes, and key takeaways is slow and inconsistent. They want to ask questions directly from their corpus of interviews (“What themes emerged around pricing?” or “Summarize candidate strengths”), but current tools: 
+- Are expensive (per-token costs in OpenAI, Gemini APIs).
+- Are opaque (no visibility into retrieval quality).
+- Lack local deployment options for sensitive data.
+- Have high latency, especially when transcribing or embedding new data.
+
 **Interview RAG** is a lightweight Retrieval-Augmented Generation (RAG) app built for product managers and researchers to analyze interviews and summarize insights from PDFs, audio, and video files — all locally and cost-efficiently. It uses:
 
 - ✅ FastAPI for backend API
