@@ -13,7 +13,7 @@ Product managers, researchers, and hiring managers record dozens of interviews w
 - ✅ Whisper for transcription
 - ✅ SentenceTransformers + FAISS for retrieval
 - ✅ Gemini 2.0 Flash for AI-powered answers
-- ✅ Progress tracked for better debuggability
+- ✅ Progress tracked in the UI for better debuggability
 
 ---
 
