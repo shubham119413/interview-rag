@@ -46,22 +46,9 @@
 - Answers questions using Gemini 2.0 Flash
 
 ---
-## 🛠️ How to Run Locally
-
-1. Install dependencies:
-    pip install -r requirements.txt
-
-2. Create a `.env` file with your Gemini key:
-    GEMINI_API_KEY=your-gemini-api-key-here
-
-3. Run the FastAPI server:
-    uvicorn main:app --host=0.0.0.0 --port=8000 --reload
-
-Then open:
-    http://localhost:8000/docs
 
 
-## 🧩 Detailed steps
+## 🧩 How to Run Locally: Detailed steps
 
 ### 1. Clone the repo
 ```bash
